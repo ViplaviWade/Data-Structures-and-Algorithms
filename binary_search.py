@@ -18,9 +18,9 @@ def binary_search(arr, num):
     else:
         apply_binary_search(arr, 0, mid-1, num)
 
-
-
 arr = list(map(int, input("Enter sorted list of array: ").split()))
 num = int(input("Enter the number to search: "))
 res = binary_search(arr, num)
 print(res)
+
+
