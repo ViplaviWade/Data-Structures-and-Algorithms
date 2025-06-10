@@ -1,3 +1,4 @@
+# Bubble sort. Sorting a pair(2 elements) swapping them
 def bubble_sort(arr):
     n = len(arr)
     for i in range(0, n):
