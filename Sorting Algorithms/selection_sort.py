@@ -1,4 +1,4 @@
-# Bubble sort. Sorting a pair(2 elements) swapping them
+# Selection sort. Finds the smallest element and swaps it into place(at start of the array)
 
 def selection_sort(arr):
     n = len(arr)
